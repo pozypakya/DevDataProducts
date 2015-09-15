@@ -1,0 +1,39 @@
+---
+title       : Developing Data Products
+subtitle    : A BMI Analysis 
+author      : by PozyPakya
+job         : 2015
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Slide 1
+
+# ToothGrowth Analysis
+
+* Load the ToothGrowth data and perform some basic exploratory data analyses 
+```{r}
+suppressMessages(library(datasets))
+suppressMessages(library(ggplot2))
+suppressMessages(library(dplyr))
+data(ToothGrowth)
+str(ToothGrowth)
+```
+
+--- .class #id 
+
+## JSZ
+
+xxxxx
+
+--- .class #id 
+
+## MTF
+
+jjjjjjjjjj
+
+
