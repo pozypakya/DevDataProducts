@@ -92,6 +92,9 @@ http://www.vapertrain.com/page/utvvb
 <br>
 https://www.e-cigarette-forum.com/forum/threads/e-liquid-nicotine-consumption-table-vaping-method.344166/
 
+## GitHub
+https://github.com/pozypakya/DevDataProducts
+
 --- .class #id 
 ## Thank You
 Developing Data Products

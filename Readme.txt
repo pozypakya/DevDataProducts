@@ -50,6 +50,13 @@ knit        : slidify::knit2slides
 
 ## Slide 2
 
+http://rpubs.com/akunyer/109473
+https://pozypakya.shinyapps.io/apps
+https://github.com/pozypakya/DevDataProducts
+
+
+
+
 
 
 
