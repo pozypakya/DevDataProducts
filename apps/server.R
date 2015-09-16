@@ -1,5 +1,6 @@
 shinyServer(function(input, output, session) {
   
+  options(digits=2)
   # Create a random name for the log file
   logfilename <- paste0('logfile',
                         floor(runif(1, 1e+05, 1e+06 - 1)),
@@ -19,7 +20,7 @@ shinyServer(function(input, output, session) {
   
   r <- function(watt) {
     if ( watt >= 2 & watt <3.4 ) {
-      return <- "<b><font color=\"blue\">Power level maybe to low to produce a string vapor</font></b>"
+      return <- "<b><font color=\"blue\">Power level maybe to low to produce a strong vapor</font></b>"
     }
     else if ( watt >= 3.4 & watt <= 8.5 ) {
       return <- "<b><font color=\"green\" >Best vapor and Cartomizer / Atomizer Performance</font></b>"
@@ -43,15 +44,15 @@ shinyServer(function(input, output, session) {
   
 
   output$voltage <- renderText({
-    paste0("The Voltage is: ", input$voltage)
+    paste0("Selected Voltage is: ", input$voltage)
   })
   
   output$ohms <- renderText({
-    paste0("The Resistance is: ", input$ohms)
+    paste0("Selected Resistance (OHM) is: ", input$ohms)
   })
   
   output$watt <- renderText({
-    paste0("The Watt is: ", w(input$voltage,input$ohms)   )
+    paste0("Computed Watt is: ", print(signif(w(input$voltage,input$ohms) ), digits=2)   )
   })
   
   output$recommendation <- renderText({

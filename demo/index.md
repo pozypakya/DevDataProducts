@@ -1,61 +1,114 @@
 ---
-title       : Developing Data Products
-subtitle    : A BMI Analysis 
-author      : by PozyPakya
-job         : 2015
-framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
-highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme     : tomorrow      # 
-widgets     : []            # {mathjax, quiz, bootstrap}
-mode        : selfcontained # {standalone, draft}
-knit        : slidify::knit2slides
+title: "Safe Vaping Power Recommender"
+author: "by PozyPakya"
+highlighter: highlight.js
+job: 2015
+knit: slidify::knit2slides
+mode: standalone
+hitheme: tomorrow
+subtitle: 
+framework: io2012
+widgets: []
+logo : tank.png
 ---
 
-## Slide 1
+## Introduction
 
-# ToothGrowth Analysis
+This application was designed for user as a safe guideline for setting a single coil cartomizers especially for a novice vapors who might not familiar with Ohm's Law to understand how ohms and voltage can affect one's vape experience.
 
-* Load the ToothGrowth data and perform some basic exploratory data analyses 
+The application  provide Safe Vaping Power chart which can be download in Excel format
 
-```r
-suppressMessages(library(datasets))
-suppressMessages(library(ggplot2))
-```
+The application do not promote for the user who are below 18+ years.
 
-```
-## Warning: package 'ggplot2' was built under R version 3.2.2
-```
+Copyright (c) 2015 PozyPakya
 
-```r
-suppressMessages(library(dplyr))
-```
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 
-```
-## Warning: package 'dplyr' was built under R version 3.2.2
-```
-
-```r
-data(ToothGrowth)
-str(ToothGrowth)
-```
-
-```
-## 'data.frame':	60 obs. of  3 variables:
-##  $ len : num  4.2 11.5 7.3 5.8 6.4 10 11.2 11.2 5.2 7 ...
-##  $ supp: Factor w/ 2 levels "OJ","VC": 2 2 2 2 2 2 2 2 2 2 ...
-##  $ dose: num  0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 ...
-```
 
 --- .class #id 
 
-## JSZ
+## System requirement
 
-xxxxx
+The web application can be access from URL below :-
+
+https://pozypakya.shinyapps.io/apps
+
+# Compatible Browser
+<br>
+<img src="http://www.itdonut.co.uk/sites/default/files/google-chrome-logo.png" />
+<br>
+<img src="http://www.vianeos.com/newsletter/images/logo_opera.jpg"/>
+<br>
+<img src="firefox.png"/>
 
 --- .class #id 
 
-## MTF
+## Slider - Voltage and Ohms
 
-jjjjjjjjjj
+<img src="slider.png" />
+<br>
+You can slide and change between the value for desired value.
+<br>
+<img src="variables.png" />
+<br>
+The value will automatically change if the slider moves. Computed watt is the output.
+
+--- .class #id 
+## Recommendation
+
+<img src="ok.png" />
+<br>
+<img src="low.png" />
+<br>
+<img src="danger.png" />
+<br>
+3 types recommendation status will be shown based on the input provided.
+<br>
+Please set and follow the best recommendation or <font color=\"green\" >green</font> status.
+
+
+--- .class #id 
+## Power Chart
+<img src="table.png" width=100% height=500  />
+<br>
+You also may refer to the power chart provided and the table in Excel can be <a href="calculator.xlsx">download</a> here. The recommendation setting is which in <font color=\"green\" >green</font> color .
+
+
+--- .class #id 
+## Reference
+http://blog.v-ecigs.com/2014/03/what-voltagewattage-should-i-vape-at.html
+<br>
+http://www.tasteyourjuice.com/wordpress/volts-vs-ohms/
+<br>
+http://vapeordie.com/vape/voltage-wattage-chart/
+<br>
+http://www.vapertrain.com/page/utvvb
+<br>
+https://www.e-cigarette-forum.com/forum/threads/e-liquid-nicotine-consumption-table-vaping-method.344166/
+
+--- .class #id 
+## Thank You
+Developing Data Products
+Your Reproducible Pitch Presentation
+
+OK, you've made your shiny app, now it's time to make your pitch. You get 5 slides (inclusive of the title slide)  to pitch a your app. You're going to create a web page using Slidify or Rstudio Presenter with an html5 slide deck.
+
+Here's what you need :-
+
+5 slides to pitch our idea done in Slidify or Rstudio Presenter
+Your presentation pushed to github or Rpubs
+A link to your github or Rpubs presentation pasted into the text box below
+Your presentation must satisfy the following
+
+<li>It must be done in Slidify or Rstudio Presenter</li>
+<li>It must be 5 pages</li>
+<li>It must be hosted on github or Rpubs</li>
+<li>It must contained some embedded R code that gets run when slidifying the document</li>
 
 

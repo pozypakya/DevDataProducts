@@ -1,1 +1,1 @@
-The following Safe Vaping Power Chart was designed for single coil cartomizers basically, and was only meant as a general guideline at that. But it does help novice vapors not familiar with Ohm's Law to understand how ohms and voltage can affect one's vape experience.
+The following Safe Vaping Power Analyzer was designed for single coil cartomizers basically, and was only meant as a general guideline at that. But it does help novice vapors not familiar with Ohm's Law to understand how ohms and voltage can affect one's vape experience. Please use it as recommended.

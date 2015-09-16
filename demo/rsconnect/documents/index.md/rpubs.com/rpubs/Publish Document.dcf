@@ -1,0 +1,7 @@
+name: Publish Document
+account: rpubs
+server: rpubs.com
+bundleId:
+        https://api.rpubs.com/api/v1/document/109398/c88ebce2119547b48cb0219107dc1b0a
+url: http://rpubs.com/akunyer/109398
+when: 1442371301.91516
