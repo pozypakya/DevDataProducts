@@ -1,5 +1,9 @@
 library(shiny)
+library(data.table)
+library(plotrix)
+
 shinyUI(fluidPage(
+  
   titlePanel("Safe Vaping Power Analyzer"),
   fluidRow(
     column(4, wellPanel(
@@ -27,7 +31,7 @@ shinyUI(fluidPage(
            br(),
            HTML('<b><u>Vaping Power Chart</u></b>'),
            br(),
-           HTML('<p><img  width=100% height=100% src="table.png" border=3 /></p>'),
+           tabPanel("Plot",plotOutput("plot")),
            HTML('<p align=right><a href="calculator.xlsx">Download Table</a><p>'),
            br(),
            
