@@ -43,19 +43,26 @@ https://pozypakya.shinyapps.io/apps
 <br>
 <img src="http://www.itdonut.co.uk/sites/default/files/google-chrome-logo.png" />
 <br>
+https://www.google.com/chrome/browser/desktop/
+<br>
 <img src="http://www.vianeos.com/newsletter/images/logo_opera.jpg"/>
 <br>
+http://www.opera.com/computer/windows
+<br>
 <img src="firefox.png"/>
+<br>
+https://www.mozilla.org/en-US/firefox/new/
+
 
 --- .class #id 
 
 ## Slider - Voltage and Ohms
 
-<img  height="30%" width="30%" src="slider.png" />
+<img src="slider.png" width=30% height=30%  />
 <br>
 You can slide and change between the value for desired value.
 <br>
-<img height="30%" width="30%"  src="variables.png" />
+<img src="variables.png" width=30% height=30%  />
 <br>
 The value will automatically change if the slider above moves. Computed watt is the output.
 
@@ -95,7 +102,7 @@ Please refer to battery safety information <a href="http://s3.amazonaws.com/csvp
 --- .class #id 
 ## Knowledge Based
 <img src="tank.png" width=20% height=10%  />
-<img src="mod.png" width=20% height=10%/>
+<img src="mod.png" width=20% height=10%    />
 <img src="eliquid.png" width=20% height=10%  />
 <img src="battery.png" width=20% height=10%  />
 <br>
