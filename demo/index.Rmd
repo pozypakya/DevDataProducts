@@ -1,5 +1,5 @@
 ---
-title: "Safe Vaping Power Recommender"
+title: "Safety Power Settings and Recommender for Vaping Devices"
 author: "by PozyPakya"
 highlighter: highlight.js
 job: 2015
@@ -9,7 +9,6 @@ hitheme: tomorrow
 subtitle: 
 framework: io2012
 widgets: []
-logo : tank.png
 ---
 
 ## Introduction
@@ -52,6 +51,12 @@ http://www.opera.com/computer/windows
 <img src="firefox.png"/>
 <br>
 https://www.mozilla.org/en-US/firefox/new/
+
+--- .class #id 
+
+## Slider - Main Interface
+
+<div align=center ><img src="main.png" width=80% height=80%  /></div>
 
 
 --- .class #id 

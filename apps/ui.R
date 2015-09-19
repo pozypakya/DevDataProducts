@@ -4,7 +4,7 @@ library(plotrix)
 
 
 shinyUI(fluidPage(
-  titlePanel("Safe Vaping Power Analyzer"),
+  titlePanel("Safety Power Settings & Recommender for Vaping Devices"),
   fluidRow(
     column(4, wellPanel(
       HTML('Notes : 3.7 Volts is the voltage used by most fixed power devices'),
