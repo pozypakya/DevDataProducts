@@ -51,33 +51,58 @@ https://pozypakya.shinyapps.io/apps
 
 ## Slider - Voltage and Ohms
 
-<img src="slider.png" />
+<img  height="30%" width="30%" src="slider.png" />
 <br>
 You can slide and change between the value for desired value.
 <br>
-<img src="variables.png" />
+<img height="30%" width="30%"  src="variables.png" />
 <br>
-The value will automatically change if the slider moves. Computed watt is the output.
+The value will automatically change if the slider above moves. Computed watt is the output.
 
 --- .class #id 
 ## Recommendation
 
+<img src="low.png" />
+<br>
 <img src="ok.png" />
 <br>
-<img src="low.png" />
+<img src="danger1.png" />
+<br>
+<img src="low1.png" />
 <br>
 <img src="danger.png" />
 <br>
 3 types recommendation status will be shown based on the input provided.
 <br>
-Please set and follow the best recommendation or <font color=\"green\" >green</font> status.
+Please set and follow the best recommendation or <font color=\"#0B610B\" >[ GOOD ]</font> status.
 
 
 --- .class #id 
-## Power Chart
-<img src="table.png" width=100% height=500  />
+## vaping Power Chart
+<img src="table.png" width=100% height=100%  />
 <br>
-You also may refer to the power chart provided and the table in Excel can be <a href="calculator.xlsx">download</a> here. The recommendation setting is which in <font color=\"green\" >green</font> color .
+Please refer to the power chart provided and the table in Excel can be <a href="calculator.xlsx">download</a> here. The recommendation setting is which in <font color=\"#0B610B\" >[ GOOD ]</font> status .
+
+
+
+--- .class #id 
+## Battery Safety Info
+<img src="battinfo.png" width=70% height=70%  />
+<br>
+Please refer to battery safety information <a href="http://s3.amazonaws.com/csvpastebin/uploads/d019eb968e1393af1716160e317682bf/batteryperformance.csv">here</a>.The recommended safety OHM provided .
+
+
+--- .class #id 
+## Knowledge Based
+<img src="tank.png" width=20% height=10%  />
+<img src="mod.png" width=20% height=10%/>
+<img src="eliquid.png" width=20% height=10%  />
+<img src="battery.png" width=20% height=10%  />
+<br>
+<img src="info2.png" width=70% height=70%  />
+<br>
+<img src="info3.png" width=70% height=70%  />
+
 
 
 --- .class #id 

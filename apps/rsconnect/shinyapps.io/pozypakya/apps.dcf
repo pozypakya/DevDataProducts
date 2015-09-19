@@ -1,8 +1,8 @@
 name: apps
 account: pozypakya
 server: shinyapps.io
-bundleId: 266267
+bundleId: 268876
 url: https://pozypakya.shinyapps.io/apps
-when: 1442369475.16419
+when: 1442625862.25027
 asMultiple: FALSE
 asStatic: FALSE
