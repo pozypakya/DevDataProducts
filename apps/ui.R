@@ -64,7 +64,7 @@ shinyUI(fluidPage(
                                                                      <br><br>The ideal rating is 2.5 amps (2000mA) or better as a conventional atomizer usually draws 1A to 2.5A.
                                                                      <br><br>Below is the battery list and its rating :-<br><br>'),
            tabPanel("Battery",div(tableOutput("battery"), style = "font-size:80%")),
-           HTML('<p align=left><a href="http://s3.amazonaws.com/csvpastebin/uploads/d019eb968e1393af1716160e317682bf/batteryperformance.csv">Download Battery Rating</a><p>'),
+           HTML('<p align=left><a href="http://s3.amazonaws.com/csvpastebin/uploads/d019eb968317682bf/batteryperformance.csv">Download Battery Rating</a><p>'),
            HTML('Formula for Max drain rate in amps is C in <b> mAh / 1000 x C rating</b><br>'),
            br(),
            HTML('<b>Example: </b> an AW IMR Li-Mn 14500 battery has a capacity of 600mAh.<br> The C rating is 8C (it can supply a load of 8 times the capacity).<br>
