@@ -20,7 +20,7 @@ shinyServer(function(input, output, session) {
   
   render_battery_table <- function(){
     
-    A <- read.csv("http://s3.amazonaws.com/csvpastebin/uploads/d019eb968e1393af1716160e317682bf/batteryperformance.csv", sep=",",
+    A <- read.csv("http://s3.amazonaws.com/csvpastebin/uploads/af1716160e317682bf/batteryperformance.csv", sep=",",
                   nrows = 100)
     A
   }
